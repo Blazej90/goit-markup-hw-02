@@ -1,0 +1,65 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgba(33, 33, 33, 1);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.web {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: rgba(33, 150, 243, 1);
+}
+
+.studio {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: rgba(33, 33, 33, 1);
+}
+
+.bookmark {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(33, 33, 33, 1);
+}
+
+.bookmark:hover {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(33, 150, 243, 1);
+}
+
+.contact {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(117, 117, 117, 1);
+}
+
+.contact:hover {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(33, 150, 243, 1);
+}
+
+h1 {
+  font-size: 44px;
+}
+
+.button {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(33, 150, 243, 1);
+  border-color: #2196f3;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+}
