@@ -60,7 +60,8 @@ h1 {
   background-color: rgba(47, 48, 58, 1);
 }
 
-button {
+.btn-order {
+  cursor: pointer;
   font-size: 16px;
   font-weight: bold;
   color: rgba(255, 255, 255, 1);
@@ -75,7 +76,6 @@ button {
 .lorem-header {
   font-size: 14px;
   font-weight: bold;
-  color: rgba(33, 33, 33, 1);
 }
 
 .lorem-text {
@@ -96,7 +96,6 @@ h2 {
 .name {
   font-size: 16px;
   font-weight: medium;
-  color: rgba(33, 33, 33, 1);
 }
 
 .position-job {
@@ -136,3 +135,20 @@ address {
 }
 
 /* ---- PAGE PORTFOLIO ---- */
+.btn-portfolio {
+  font-size: 16px;
+  font-weight: 500;
+  font-weight: bold;
+  line-height: 1.6;
+  background-color: rgba(245, 244, 250, 1);
+  border-color: rgba(245, 244, 250, 1);
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-portfolio:hover {
+  background-color: rgba(33, 150, 243, 1);
+  color: rgba(255, 255, 255, 1);
+}
