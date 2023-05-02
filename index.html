@@ -8,13 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
@@ -22,13 +16,13 @@
   <body>
     <header>
       <a href="/webstudio"
-        ><span class="web">Web</span><span class="studio">Studio</span></a
+        ><span class="web">Web</span><span class="studio-1">Studio</span></a
       >
       <nav>
         <section class="bookmarks">
           <ul>
             <li><a class="bookmark" href="/agency">Agencja</a></li>
-            <li><a class="bookmark" href="/portfolio">Portfolio</a></li>
+            <li><a class="bookmark" href="/portfolio.html">Portfolio</a></li>
             <li><a class="bookmark" href="/contact">Kontakt</a></li>
           </ul>
         </section>
@@ -36,44 +30,46 @@
       <ul>
         <section class="contacts">
           <li>
-            <a class="contact" href="mailto:info@devstudio.com"
+            <a class="contact-header" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="contact" href="tel:+48111111111">+48 111 111 111</a>
+            <a class="contact-header" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
           </li>
         </section>
       </ul>
       <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-      <button class="button" type="button">Zamów usługe</button>
+      <button type="button">Zamów usługe</button>
     </header>
     <main>
       <ul>
         <li>
-          <p>
-            <b>LOREM IPSUM</b>
+          <p class="lorem-header">LOREM IPSUM</p>
+          <p class="lorem-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
         </li>
         <li>
-          <p>
-            <b>LOREM IPSUM</b>
+          <p class="lorem-header">LOREM IPSUM</p>
+          <p class="lorem-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
         </li>
         <li>
-          <p>
-            <b>LOREM IPSUM</b>
+          <p class="lorem-header">LOREM IPSUM</p>
+          <p class="lorem-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
         </li>
         <li>
-          <p>
-            <b>LOREM IPSUM</b>
+          <p class="lorem-header">LOREM IPSUM</p>
+          <p class="lorem-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
@@ -117,8 +113,8 @@
             width="270"
             height="260"
           />
-          <h3>John Doe</h3>
-          <h3>Product Designer</h3>
+          <b><p class="name">John Doe</p></b>
+          <p class="position-job">Product Designer</p>
         </li>
         <li>
           <img
@@ -127,8 +123,8 @@
             width="270"
             height="260"
           />
-          <h3>John Doe</h3>
-          <h3>Frontend Developer</h3>
+          <b><p class="name">John Doe</p></b>
+          <p class="position-job">Frontend Developer</p>
         </li>
         <li>
           <img
@@ -137,8 +133,8 @@
             width="270"
             height="260"
           />
-          <h3>John Doe</h3>
-          <h3>Marketing</h3>
+          <b><p class="name">John Doe</p></b>
+          <p class="position-job">Marketing</p>
         </li>
         <li>
           <img
@@ -147,15 +143,29 @@
             width="270"
             height="260"
           />
-          <h3>John Doe</h3>
-          <h3>UI Designer</h3>
+          <b><p class="name">John Doe</p></b>
+          <p class="position-job">UI Designer</p>
         </li>
       </ul>
     </main>
     <footer>
-      <a href="/webstudio">WebStudio</a>
+      <a href="/webstudio"
+        ><span class="web">Web</span><span class="studio-2">Studio</span></a
+      >
       <address>
-        m. Warszawa, Aleje Jerozolimskie 21 info@example.com +48 111 111 111
+        <ul>
+          <li><p class="city">m. Warszawa, Aleje Jerozolimskie 21</p></li>
+          <li>
+            <a class="contact-footer" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contact-footer" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul>
       </address>
     </footer>
   </body>
