@@ -114,18 +114,12 @@ address {
 
 .city {
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.7;
   color: rgba(255, 255, 255, 1);
 }
 
-.city:hover {
-  color: rgba(33, 150, 243, 1);
-}
-
 .contact-footer {
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -151,4 +145,17 @@ address {
 .btn-portfolio:hover {
   background-color: rgba(33, 150, 243, 1);
   color: rgba(255, 255, 255, 1);
+}
+
+.design-name {
+  font-size: 18px;
+  font-weight: 700;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.design-version {
+  font-size: 16px;
+  line-height: 1.9;
+  color: rgba(117, 117, 117, 1);
 }
